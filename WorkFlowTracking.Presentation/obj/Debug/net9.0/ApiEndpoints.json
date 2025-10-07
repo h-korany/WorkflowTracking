@@ -1,0 +1,179 @@
+[
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.ProcessesController",
+    "Method": "GetProcesses",
+    "RelativePath": "v1/Processes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "WorkflowId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AssignedTo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.ProcessesController",
+    "Method": "ExecuteStep",
+    "RelativePath": "v1/Processes/execute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WorkFlowTracking.Application.DTOs.ExecuteStepRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.ProcessesController",
+    "Method": "StartProcess",
+    "RelativePath": "v1/Processes/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WorkFlowTracking.Application.DTOs.StartProcessRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.WorkflowsController",
+    "Method": "CreateWorkflow",
+    "RelativePath": "v1/Workflows",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workflowDto",
+        "Type": "WorkFlowTracking.Application.DTOs.WorkflowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WorkFlowTracking.Application.DTOs.WorkflowDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.WorkflowsController",
+    "Method": "GetAllWorkflows",
+    "RelativePath": "v1/Workflows",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WorkFlowTracking.Application.DTOs.WorkflowDto, WorkFlowTracking.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.WorkflowsController",
+    "Method": "GetWorkflow",
+    "RelativePath": "v1/Workflows/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WorkFlowTracking.Application.DTOs.WorkflowDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.WorkflowsController",
+    "Method": "UpdateWorkflow",
+    "RelativePath": "v1/Workflows/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "workflowDto",
+        "Type": "WorkFlowTracking.Application.DTOs.WorkflowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WorkFlowTracking.Application.DTOs.WorkflowDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkFlowTracking.Presentation.Controllers.WorkflowsController",
+    "Method": "DeleteWorkflow",
+    "RelativePath": "v1/Workflows/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

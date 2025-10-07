@@ -1,0 +1,15 @@
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\bin\Debug\net9.0\WorkFlowTracking.Application.deps.json
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\bin\Debug\net9.0\WorkFlowTracking.Application.dll
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\bin\Debug\net9.0\WorkFlowTracking.Application.pdb
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.AssemblyInfoInputs.cache
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.AssemblyInfo.cs
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.csproj.CoreCompileInputs.cache
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.dll
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\refint\WorkFlowTracking.Application.dll
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.pdb
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\ref\WorkFlowTracking.Application.dll
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\bin\Debug\net9.0\WorkFlowTracking.Domain.dll
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\bin\Debug\net9.0\WorkFlowTracking.Domain.pdb
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlowTracking.Application.csproj.AssemblyReference.cache
+D:\Me\program\WorkFlowTracking\WorkFlowTracking.Application\obj\Debug\net9.0\WorkFlow.0FB63739.Up2Date

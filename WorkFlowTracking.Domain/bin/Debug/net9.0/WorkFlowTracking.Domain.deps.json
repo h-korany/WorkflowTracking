@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "WorkFlowTracking.Domain/1.0.0": {
+        "runtime": {
+          "WorkFlowTracking.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WorkFlowTracking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

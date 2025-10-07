@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WorkFlowTracking.Presentation.props" />
+</Project>

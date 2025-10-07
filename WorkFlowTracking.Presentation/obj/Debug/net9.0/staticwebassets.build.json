@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8kzPdZi7P4laETE1q8Y86bYVrI4cmCzf30LwLszpBKs=",
+  "Source": "WorkFlowTracking.Presentation",
+  "BasePath": "_content/WorkFlowTracking.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
