@@ -1,0 +1,116 @@
+[
+  {
+    "ContainingType": "ValidationAPI.Controllers.ValidationController",
+    "Method": "ValidateCompliance",
+    "RelativePath": "api/Validation/compliance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ValidationAPI.Models.ComplianceValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ValidationAPI.Models.ValidationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ValidationAPI.Controllers.ValidationController",
+    "Method": "ValidateCustomStep",
+    "RelativePath": "api/Validation/custom",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ValidationAPI.Models.CustomValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ValidationAPI.Models.ValidationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ValidationAPI.Controllers.ValidationController",
+    "Method": "ValidateFinanceApproval",
+    "RelativePath": "api/Validation/finance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ValidationAPI.Models.FinanceValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ValidationAPI.Models.ValidationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ValidationAPI.Controllers.ValidationController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/Validation/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ValidationAPI.Controllers.ValidationController",
+    "Method": "ValidateManagerApproval",
+    "RelativePath": "api/Validation/manager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ValidationAPI.Models.ManagerValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ValidationAPI.Models.ValidationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

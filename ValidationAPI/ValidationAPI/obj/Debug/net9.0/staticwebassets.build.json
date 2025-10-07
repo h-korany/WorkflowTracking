@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TRVAIfAdNvNuD82Vr2lvv46xoxSCcMV8I6T57bE3n6s=",
+  "Source": "ValidationAPI",
+  "BasePath": "_content/ValidationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
